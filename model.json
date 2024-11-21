@@ -1,0 +1,36 @@
+{
+	"models": {
+		"model_0": "model.stl",
+		"model_1": "model.stl"
+	},
+	"animations": {
+  		"name": "animation_0",
+  		"duration": 3.0,
+		"tracks": [
+		    {
+		      "type": "vector3",
+		      "name": "model_0.position",
+		      "times": [0, 1, 2, 3],
+		      "values": [0,0,0 ,0,0,100, 0,0,200, 0,0,300]
+		    },
+		    {
+		       "type": "vector3",
+		      "name": "model_0.material.color",
+		      "times": [0, 1, 2, 3],
+		      "values": [1,0,0 ,1,0,0, 0,0,1, 0,0,1]   	
+		    },
+		    {
+		      "type": "vector3",
+		      "name": "model_1.position",
+		      "times": [0, 1, 2, 3],
+		      "values": [100,0,300 ,100,0,200, 100,0,100, 100,0,0]
+		    },
+		    {
+		       "type": "vector3",
+		      "name": "model_1.material.color",
+		      "times": [0, 1, 2, 3],
+		      "values": [0,0,1 ,0,0,1, 1,0,0, 1,0,0]   	
+		    }
+		]
+}
+}
